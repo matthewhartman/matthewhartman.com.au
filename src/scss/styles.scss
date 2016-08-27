@@ -1,0 +1,20 @@
+// ==========================================================================
+// Your Website / App Stylesheet
+// ==========================================================================
+
+// Variables
+@import "styles/variables-colors.scss";
+
+// Animations
+@import "styles/animations";
+
+// Import bits and pieces of Base - http://getbase.org
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_resets";
+@import "base/_typography";
+@import "base/_buttons";
+@import "base/_helpers";
+
+// Main website styles
+@import "styles/main.scss";

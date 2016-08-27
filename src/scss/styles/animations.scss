@@ -1,0 +1,45 @@
+// ==========================================================================
+// Animations – Selective animations from Animate.css - http://daneden.me/animate
+// ==========================================================================
+
+// Fade In Left
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fade-in-left { animation-name: fadeInLeft; }
+
+
+// Fade In Left Big
+@keyframes openCurtain {
+  0% {
+    transform: translate3d(0, -100%, 0);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+}
+.open-curtain { animation-name: openCurtain; }
+
+// Fade In Up
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fade-in-up { animation-name: fadeInUp; }

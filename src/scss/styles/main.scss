@@ -1,0 +1,195 @@
+
+
+// Styles
+@include breakpoint(m) {
+  html, body, .page, .header, .content { height: 100%; }
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #eee;
+}
+
+// Components
+.button {
+  @include font-size(11);
+  @include line-height(17);
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  background-color: transparent;
+  border: 2px solid #121212;
+  text-transform: uppercase;
+  font-weight: 700;
+  &:hover {
+    color: white;
+    background-color: #121212;
+  }
+}
+
+// Header
+.header {
+  background-color: #ffdead;
+  overflow: hidden;
+  text-align: center;
+  @include breakpoint(m) {
+    position: fixed;
+    width: 50%;
+    left: 0;
+    top: 0;
+  }
+  @include animate(.5s);
+  @extend .open-curtain;
+  h1 {
+    @include animate(.8s);
+    animation-delay: .8s;
+    @extend .fade-in-left;
+  }
+  p {
+    @include animate(.8s);
+    animation-delay: 1s;
+    @extend .fade-in-left;
+  }
+  .button {
+    @include animate(.8s);
+    animation-delay: 1.2s;
+    @extend .fade-in-left;
+  }
+}
+.header-inner {
+  margin: 10% auto;
+  width: 80%;
+  @include breakpoint(m) {
+    width: 280px;
+    margin: 25% auto;
+  }
+  @include breakpoint(l) {
+    width: 400px;
+  }
+}
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  & > li {
+    display: inline-block;
+    position: relative;
+  }
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  display: block;
+  transition: all .3s;
+  &:before {
+    transition: all .3s;
+    @include font-size(11);
+    @include line-height(17);
+    position: absolute;
+    text-align: center;
+    top: -32px;
+    transform: translate(-50%, 0);
+    left: 20px;
+    padding: 5px;
+    background-color: darken(#ffdead, 10%);
+    border-radius: 5px;
+    display: block;
+    content: attr(title);
+    opacity: 0;
+  }
+  &:hover {
+    background-position: 50% 0;
+    &:before { opacity: 1; }
+  }
+}
+.icon-twitter { background: url(../img/twitter.svg) 50% 50% no-repeat; }
+.icon-github { background: url(../img/github.svg) 50% 50% no-repeat; }
+.icon-linkedin { background: url(../img/linkedin.svg) 50% 50% no-repeat; }
+.icon-spotify { background: url(../img/spotify.svg) 50% 50% no-repeat; }
+
+.item-twitter {
+  @include animate(.8s);
+  animation-delay: 1.4s;
+  @extend .fade-in-left;
+}
+.item-github {
+  @include animate(.8s);
+  animation-delay: 1.5s;
+  @extend .fade-in-left;
+}
+.item-linkedin {
+  @include animate(.8s);
+  animation-delay: 1.6s;
+  @extend .fade-in-left;
+}
+.item-spotify {
+  @include animate(.8s);
+  animation-delay: 1.7s;
+  @extend .fade-in-left;
+}
+
+// Content
+.content {
+  @include breakpoint(m) {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+  }
+}
+.content-inner {
+  padding: 40px;
+  @include breakpoint(m) {
+    padding-top: 30px;
+    padding-bottom: 30px;    
+  }
+  @include breakpoint(l) {
+    width: 460px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.intro {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  @include animate(.8s);
+  animation-delay: 1.8s;
+  @extend .fade-in-up;
+}
+.projects {
+  h2 {
+    @include animate(.8s);
+    animation-delay: 2s;
+    @extend .fade-in-up;
+  }
+}
+.project {
+  border-bottom: 1px solid #eee;
+}
+.project-1 {
+  @include animate(.8s);
+  animation-delay: 2.2s;
+  @extend .fade-in-up;
+}
+.project-2 {
+  @include animate(.8s);
+  animation-delay: 2.4s;
+  @extend .fade-in-up;
+}
+.project-3 {
+  @include animate(.8s);
+  animation-delay: 2.6s;
+  @extend .fade-in-up;
+}
+.project-4 {
+  @include animate(.8s);
+  animation-delay: 2.8s;
+  @extend .fade-in-up;
+}
+.contact {
+  @include animate(.8s);
+  animation-delay: 3s;
+  @extend .fade-in-up;
+}
