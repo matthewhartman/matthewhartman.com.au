@@ -104,6 +104,7 @@ hr {
   }
 }
 .icon-twitter { background: url(../img/twitter.svg) 50% 50% no-repeat; }
+.icon-instagram { background: url(../img/instagram.svg) 50% 50% no-repeat; }
 .icon-github { background: url(../img/github.svg) 50% 50% no-repeat; }
 .icon-linkedin { background: url(../img/linkedin.svg) 50% 50% no-repeat; }
 .icon-spotify { background: url(../img/spotify.svg) 50% 50% no-repeat; }
@@ -113,19 +114,24 @@ hr {
   animation-delay: 1.4s;
   @extend .fade-in-left;
 }
-.item-github {
+.item-instagram {
   @include animate(.8s);
   animation-delay: 1.5s;
   @extend .fade-in-left;
 }
-.item-linkedin {
+.item-github {
   @include animate(.8s);
   animation-delay: 1.6s;
   @extend .fade-in-left;
 }
-.item-spotify {
+.item-linkedin {
   @include animate(.8s);
   animation-delay: 1.7s;
+  @extend .fade-in-left;
+}
+.item-spotify {
+  @include animate(.8s);
+  animation-delay: 1.8s;
   @extend .fade-in-left;
 }
 
