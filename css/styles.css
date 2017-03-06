@@ -1152,7 +1152,7 @@ hr {
     background-color: #121212; }
 
 .header {
-  background-color: #ffdead;
+  background-color: #ffd700;
   overflow: hidden;
   text-align: center;
   -webkit-animation-duration: 0.5s;
@@ -1227,7 +1227,8 @@ hr {
             transform: translate(-50%, 0);
     left: 20px;
     padding: 5px;
-    background-color: #ffc97a;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
     display: block;
     content: attr(title);
