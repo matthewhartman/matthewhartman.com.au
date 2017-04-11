@@ -38,20 +38,24 @@ hr {
     left: 0;
     top: 0;
   }
-  @include animate(.5s);
+  animation-duration: .5s;
+  animation-fill-mode: both;
   @extend .open-curtain;
   h1 {
-    @include animate(.8s);
+    animation-duration: .8s;
+    animation-fill-mode: both;
     animation-delay: .8s;
     @extend .fade-in-left;
   }
   p {
-    @include animate(.8s);
+    animation-duration: .8s;
+    animation-fill-mode: both;
     animation-delay: 1s;
     @extend .fade-in-left;
   }
   .button {
-    @include animate(.8s);
+    animation-duration: .8s;
+    animation-fill-mode: both;
     animation-delay: 1.2s;
     @extend .fade-in-left;
   }
@@ -110,27 +114,32 @@ hr {
 .icon-spotify { background: url(../img/spotify.svg) 50% 50% no-repeat; }
 
 .item-twitter {
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 1.4s;
   @extend .fade-in-left;
 }
 .item-instagram {
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 1.5s;
   @extend .fade-in-left;
 }
 .item-github {
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 1.6s;
   @extend .fade-in-left;
 }
 .item-linkedin {
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 1.7s;
   @extend .fade-in-left;
 }
 .item-spotify {
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 1.8s;
   @extend .fade-in-left;
 }
@@ -160,13 +169,15 @@ hr {
 .intro {
   border-bottom: 1px solid #eee;
   padding-bottom: 20px;
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 1.8s;
   @extend .fade-in-up;
 }
 .projects {
   h2 {
-    @include animate(.8s);
+    animation-duration: .8s;
+    animation-fill-mode: both;
     animation-delay: 2s;
     @extend .fade-in-up;
   }
@@ -175,27 +186,32 @@ hr {
   border-bottom: 1px solid #eee;
 }
 .project-1 {
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 2.2s;
   @extend .fade-in-up;
 }
 .project-2 {
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 2.4s;
   @extend .fade-in-up;
 }
 .project-3 {
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 2.6s;
   @extend .fade-in-up;
 }
 .project-4 {
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 2.8s;
   @extend .fade-in-up;
 }
 .contact {
-  @include animate(.8s);
+  animation-duration: .8s;
+  animation-fill-mode: both;
   animation-delay: 3s;
   @extend .fade-in-up;
 }

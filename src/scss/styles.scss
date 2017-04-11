@@ -1,5 +1,5 @@
 // ==========================================================================
-// Your Website / App Stylesheet
+// Matthew Hartman's Portfolio - http://matthewhartman.com.au
 // ==========================================================================
 
 // Variables
@@ -9,12 +9,12 @@
 @import "styles/animations";
 
 // Import bits and pieces of Base - http://getbase.org
-@import "base/_variables";
-@import "base/_mixins";
-@import "base/_resets";
-@import "base/_typography";
-@import "base/_buttons";
-@import "base/_helpers";
+@import "node_modules/getbase/src/scss/base/_variables";
+@import "node_modules/getbase/src/scss/base/_mixins";
+@import "node_modules/getbase/src/scss/base/_resets";
+@import "node_modules/getbase/src/scss/base/_typography";
+@import "node_modules/getbase/src/scss/base/_buttons";
+@import "node_modules/getbase/src/scss/base/_helpers";
 
 // Main website styles
 @import "styles/main.scss";
