@@ -70,7 +70,7 @@
     -webkit-transform: none;
             transform: none; } }
 
-.fade-in-up, .intro, .projects h2, .project-1, .project-2, .project-3, .project-4, .contact {
+.fade-in-up, .intro, .projects h2, .project-1, .project-2, .project-3 {
   -webkit-animation-name: fadeInUp;
           animation-name: fadeInUp; }
 
@@ -262,7 +262,6 @@ hr, .hr {
   text-decoration: none;
   color: #363636;
   display: inline-block;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s; }
   .button:hover, .button:active {
     text-decoration: none; }
@@ -1327,10 +1326,8 @@ hr {
   width: 40px;
   height: 40px;
   display: block;
-  -webkit-transition: all .3s;
   transition: all .3s; }
   .icon:before {
-    -webkit-transition: all .3s;
     transition: all .3s;
     font-size: 11px;
     font-size: 0.6875rem;
@@ -1447,9 +1444,10 @@ hr {
           animation-delay: 2s; }
 
 .project {
-  border-bottom: 1px solid #eee; }
+  border-top: 1px solid #eee; }
 
 .project-1 {
+  border-top-color: #fff;
   -webkit-animation-duration: 0.8s;
           animation-duration: 0.8s;
   -webkit-animation-fill-mode: both;
@@ -1472,21 +1470,5 @@ hr {
           animation-fill-mode: both;
   -webkit-animation-delay: 2.6s;
           animation-delay: 2.6s; }
-
-.project-4 {
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-delay: 2.8s;
-          animation-delay: 2.8s; }
-
-.contact {
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s; }
 
 /*# sourceMappingURL=styles.css.map */

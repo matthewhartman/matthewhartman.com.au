@@ -171,10 +171,9 @@ hr {
     @extend .fade-in-up;
   }
 }
-.project {
-  border-bottom: 1px solid #eee;
-}
+.project { border-top: 1px solid #eee; }
 .project-1 {
+  border-top-color: #fff;
   @include animation(.8s);
   animation-delay: 2.2s;
   @extend .fade-in-up;
@@ -187,15 +186,5 @@ hr {
 .project-3 {
   @include animation(.8s);
   animation-delay: 2.6s;
-  @extend .fade-in-up;
-}
-.project-4 {
-  @include animation(.8s);
-  animation-delay: 2.8s;
-  @extend .fade-in-up;
-}
-.contact {
-  @include animation(.8s);
-  animation-delay: 3s;
   @extend .fade-in-up;
 }
