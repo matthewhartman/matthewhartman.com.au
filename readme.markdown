@@ -1,8 +1,8 @@
 # [Matthew Hartman](http://matthewhartman.com.au)
 
-Hi there, the name's Matthew Hartman, as you've probably figured out by now, and I'm a passionate front end developer with over 10 years of industry experience.
+Hi there, this is the home of matthewhartman.com.au.
 
-When I'm not working, I'm either hanging out with my wife and daughter, travelling the world, socialising with friends, becoming a better table tennis player or being a good foodie.
+Find out more about me by visiting my website or connecting with me below.
 
 ## Connect with me
 
