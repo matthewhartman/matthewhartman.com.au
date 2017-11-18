@@ -88,7 +88,7 @@ hr {
     @include line-height(17);
     position: absolute;
     text-align: center;
-    top: -32px;
+    bottom: 0;
     transform: translate(-50%, 0);
     left: 20px;
     padding: 5px;
@@ -100,7 +100,10 @@ hr {
   }
   &:hover {
     background-position: 50% 0;
-    &:before { opacity: 1; }
+    &:before {
+      transform: translate(-50%, 20px);
+      opacity: 1;
+    }
   }
 }
 .icon-twitter { background: url(../img/twitter.svg) 50% 50% no-repeat; }

@@ -1335,7 +1335,7 @@ hr {
     line-height: 1.0625rem;
     position: absolute;
     text-align: center;
-    top: -32px;
+    bottom: 0;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
     left: 20px;
@@ -1349,6 +1349,8 @@ hr {
   .icon:hover {
     background-position: 50% 0; }
     .icon:hover:before {
+      -webkit-transform: translate(-50%, 20px);
+              transform: translate(-50%, 20px);
       opacity: 1; }
 
 .icon-twitter {
