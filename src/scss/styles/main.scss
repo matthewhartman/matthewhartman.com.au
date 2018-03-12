@@ -18,18 +18,19 @@ hr {
   letter-spacing: 1px;
   padding: 8px 12px;
   background-color: transparent;
-  border: 2px solid #121212;
+  border: 2px solid #fff;
   text-transform: uppercase;
   font-weight: 700;
+  color: white;
   &:hover {
-    color: white;
-    background-color: #121212;
+    background-color: #fff;
   }
 }
 
 // Header
 .header {
-  background-color: #ffd700;
+  background-color: #dc143c;
+  color: #f9f9f9;
   overflow: hidden;
   text-align: center;
   @include breakpoint(m) {
@@ -189,5 +190,10 @@ hr {
 .project-3 {
   @include animation(.8s);
   animation-delay: 2.6s;
+  @extend .fade-in-up;
+}
+.project-3 {
+  @include animation(.8s);
+  animation-delay: 2.8s;
   @extend .fade-in-up;
 }

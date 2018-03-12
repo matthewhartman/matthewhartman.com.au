@@ -6,6 +6,6 @@ if ( 'querySelector' in document && 'addEventListener' in window ) {
 // Load Custom Google Font
 WebFont.load({
   google: {
-    families: ['Source Sans Pro:300,700']
+    families: ['Lato:400,700']
   }
 });
