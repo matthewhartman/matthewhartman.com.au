@@ -2,19 +2,18 @@
 // Matthew Hartman's Portfolio - http://matthewhartman.com.au
 // ==========================================================================
 
-// Variables
-@import "styles/variables-colors.scss";
+// Variables and Colours
+@import "styles/variables-colors";
 
-// Animations
+// Import Base & Modules
+@import "../../node_modules/@getbase/animations/scss/index";
+@import "../../node_modules/@getbase/base/scss/index";
+@import "../../node_modules/@getbase/containers/scss/index";
+@import "../../node_modules/@getbase/typography/scss/index";
+
+// Overall Styles
 @import "styles/animations";
+@import "styles/main";
 
-// Import bits and pieces of Base - http://getbase.org
-@import "node_modules/getbase/scss/base/_variables";
-@import "node_modules/getbase/scss/base/_mixins";
-@import "node_modules/getbase/scss/base/_resets";
-@import "node_modules/getbase/scss/base/_typography";
-@import "node_modules/getbase/scss/base/_buttons";
-@import "node_modules/getbase/scss/base/_helpers";
-
-// Main website styles
-@import "styles/main.scss";
+// Base Layout Helpers
+@import "../../node_modules/@getbase/layout-spacers/scss/index";

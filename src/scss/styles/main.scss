@@ -13,24 +13,32 @@ hr {
 
 // Components
 .button {
-  @include font-size(11);
-  @include line-height(17);
+  font-size: 11px;
+  line-height: 17px;
   letter-spacing: 1px;
-  padding: 8px 12px;
+  padding: 12px 32px;
   background-color: transparent;
   border: 2px solid #fff;
   text-transform: uppercase;
   font-weight: 700;
   color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: all .3s;
+  position: relative;
   &:hover {
     background-color: #fff;
+  }
+  &:active {
+    color: #fff;
+    background-color: #000;
   }
 }
 
 // Header
 .header {
   background-color: #000;
-  color: #f9f9f9;
+  color: #fff;
   overflow: hidden;
   text-align: center;
   @include breakpoint(m) {
@@ -39,20 +47,20 @@ hr {
     left: 0;
     top: 0;
   }
-  @include animation(.5s);
+  @include animate(.5s);
   @extend .open-curtain;
   h1 {
-    @include animation(.8s);
+    @include animate(.8s);
     animation-delay: .8s;
     @extend .fade-in-left;
   }
   p {
-    @include animation(.8s);
+    @include animate(.8s);
     animation-delay: 1s;
     @extend .fade-in-left;
   }
   .button {
-    @include animation(.8s);
+    @include animate(.8s);
     animation-delay: 1.2s;
     @extend .fade-in-left;
   }
@@ -85,8 +93,8 @@ hr {
   transition: all .3s;
   &:before {
     transition: all .3s;
-    @include font-size(11);
-    @include line-height(17);
+    font-size: 11px;
+    line-height: 17px;
     position: absolute;
     text-align: center;
     bottom: 0;
@@ -112,30 +120,36 @@ hr {
 .icon-github { background: url(../img/github.svg) 50% 50% no-repeat; }
 .icon-linkedin { background: url(../img/linkedin.svg) 50% 50% no-repeat; }
 .icon-spotify { background: url(../img/spotify.svg) 50% 50% no-repeat; }
+.icon-medium { background: url(../img/medium.svg) 50% 50% no-repeat; }
 
 .item-twitter {
-  @include animation(.8s);
+  @include animate(.8s);
   animation-delay: 1.4s;
   @extend .fade-in-left;
 }
 .item-instagram {
-  @include animation(.8s);
+  @include animate(.8s);
   animation-delay: 1.5s;
   @extend .fade-in-left;
 }
 .item-github {
-  @include animation(.8s);
+  @include animate(.8s);
   animation-delay: 1.6s;
   @extend .fade-in-left;
 }
 .item-linkedin {
-  @include animation(.8s);
+  @include animate(.8s);
   animation-delay: 1.7s;
   @extend .fade-in-left;
 }
 .item-spotify {
-  @include animation(.8s);
+  @include animate(.8s);
   animation-delay: 1.8s;
+  @extend .fade-in-left;
+}
+.item-medium {
+  @include animate(.8s);
+  animation-delay: 1.9s;
   @extend .fade-in-left;
 }
 
@@ -164,13 +178,13 @@ hr {
 .intro {
   border-bottom: 1px solid #eee;
   padding-bottom: 20px;
-  @include animation(.8s);
+  @include animate(.8s);
   animation-delay: 1.8s;
   @extend .fade-in-up;
 }
 .projects {
   h2 {
-    @include animation(.8s);
+    @include animate(.8s);
     animation-delay: 2s;
     @extend .fade-in-up;
   }
@@ -178,22 +192,27 @@ hr {
 .project { border-top: 1px solid #eee; }
 .project-1 {
   border-top-color: #fff;
-  @include animation(.8s);
+  @include animate(.8s);
   animation-delay: 2.2s;
   @extend .fade-in-up;
 }
 .project-2 {
-  @include animation(.8s);
+  @include animate(.8s);
   animation-delay: 2.4s;
   @extend .fade-in-up;
 }
 .project-3 {
-  @include animation(.8s);
+  @include animate(.8s);
   animation-delay: 2.6s;
   @extend .fade-in-up;
 }
 .project-3 {
-  @include animation(.8s);
+  @include animate(.8s);
   animation-delay: 2.8s;
+  @extend .fade-in-up;
+}
+.project-4 {
+  @include animate(.8s);
+  animation-delay: 3s;
   @extend .fade-in-up;
 }
