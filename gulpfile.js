@@ -82,7 +82,7 @@ gulp.task('browserSync', () => {
 // Eg: <script src="default.js" inline></script>
 // Will compile all inline within the html file (less http requests - woot!)
 gulp.task('inlinesource', () => {
-  return gulp.src('./src/**/*.html')
+  return gulp.src('./**/*.html')
     .pipe(inlinesource())
     .pipe(gulp.dest('./'));
 });
