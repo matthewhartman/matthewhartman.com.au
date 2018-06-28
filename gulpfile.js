@@ -43,7 +43,7 @@ gulp.task('sass', () => {
 
 // Babelify and Minify JS
 gulp.task('js', () =>
-  gulp.src('src/js/**/*.js')
+  gulp.src('./src/js/**/*.js')
   .pipe(babel({
     presets: ['env']
   }))
@@ -53,7 +53,7 @@ gulp.task('js', () =>
 
 // Minify HTML
 gulp.task('htmlmin', () => (
-  gulp.src('src/*.html')
+  gulp.src('./*.html')
   .pipe(htmlmin({collapseWhitespace: true}))
   .pipe(gulp.dest('./'))
 ));
@@ -82,7 +82,7 @@ gulp.task('browserSync', () => {
 // Eg: <script src="default.js" inline></script>
 // Will compile all inline within the html file (less http requests - woot!)
 gulp.task('inlinesource', () => {
-  return gulp.src('./**/*.html')
+  return gulp.src('./*.html')
     .pipe(inlinesource())
     .pipe(gulp.dest('./'));
 });
