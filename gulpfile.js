@@ -53,7 +53,7 @@ gulp.task('js', () =>
 
 // Minify HTML
 gulp.task('htmlmin', () => (
-  gulp.src('./*.html')
+  gulp.src('./src/*.html')
   .pipe(htmlmin({collapseWhitespace: true}))
   .pipe(gulp.dest('./'))
 ));
