@@ -95,12 +95,11 @@ gulp.task('watch', ['browserSync'], () => {
 
 // Gulp Clean Up
 gulp.task('clean', () => {
-  return
-    del('./css');
-    del('./docs');
-    del('./js');
-    del('./img');
-    del('./index.html');
+  del('./css');
+  del('./docs');
+  del('./js');
+  del('./img');
+  del('./index.html');
 });
 
 // Gulp Default
