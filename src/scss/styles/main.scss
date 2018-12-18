@@ -107,7 +107,7 @@ hr {
     content: attr(title);
     opacity: 0;
   }
-  &:hover {
+  &:hover, &:focus {
     background-position: 50% 0;
     &:before {
       transform: translate(-50%, 20px);

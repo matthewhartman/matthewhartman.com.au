@@ -1,1 +1,0 @@
-"use strict";"querySelector"in document&&"addEventListener"in window&&(document.documentElement.className+="js"),WebFont.load({google:{families:["Lato:400,700"]}});

@@ -1,4 +1,6 @@
 // Default JavaScript Functions and Initiations
+import WebFont from 'webfontloader'
+
 if ( 'querySelector' in document && 'addEventListener' in window ) {
   document.documentElement.className += 'js';
 }
