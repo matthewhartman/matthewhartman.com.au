@@ -5,8 +5,8 @@
   "main": "index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./scripts/build-css.js && cp ./src/index.html ./index.html",
-    "clean": "rm index.html index.css"
+    "build": "npm run clean && node ./scripts/build-css.js && cp ./src/index.html ./index.html && cp -a ./src/img ./",
+    "clean": "rm -rf ./index.html ./index.css ./img"
   },
   "repository": {
     "type": "git",
