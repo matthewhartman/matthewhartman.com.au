@@ -338,6 +338,18 @@ hr {
   animation-delay: 3s;
   animation-name: fadeInUp;
 }
+.project-5 {
+  animation-duration: .8s;
+  animation-fill-mode: both;
+  animation-delay: 3.2s;
+  animation-name: fadeInUp;
+}
+.project-6 {
+  animation-duration: .8s;
+  animation-fill-mode: both;
+  animation-delay: 3.4s;
+  animation-name: fadeInUp;
+}
 
 /* Utils */
 .pad-top-20 { padding-top: 20px; }
