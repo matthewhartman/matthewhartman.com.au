@@ -95,7 +95,7 @@ hr {
 .button {
   font-size: 11px;
   line-height: 17px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   padding: 12px 32px;
   background-color: transparent;
   border: 2px solid #fff;
@@ -107,13 +107,11 @@ hr {
   transition: all .3s;
   position: relative;
 }
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: #fff;
 }
 .button:active {
-  color: #fff;
-  background-color: #000;
+  transform: translate(0, 2px);
 }
 
 /* Header */
