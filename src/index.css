@@ -111,8 +111,7 @@ hr {
   background-color: #fff;
 }
 .button:active {
-  transform: translate(0, 2px);
-  animation: none;
+  top: 2px;
 }
 
 /* Header */
