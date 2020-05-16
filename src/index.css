@@ -112,6 +112,7 @@ hr {
 }
 .button:active {
   transform: translate(0, 2px);
+  animation: none;
 }
 
 /* Header */
