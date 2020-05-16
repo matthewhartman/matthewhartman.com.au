@@ -326,22 +326,29 @@ hr {
   animation-delay: 3s;
   animation-name: fadeInUp;
 }
-.project-6 {
+
+.work-heading {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 3.2s;
   animation-name: fadeInUp;
 }
-.project-7 {
+.work-1 {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 3.4s;
   animation-name: fadeInUp;
 }
-.project-8 {
+.work-2 {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 3.6s;
+  animation-name: fadeInUp;
+}
+.work-3 {
+  animation-duration: .8s;
+  animation-fill-mode: both;
+  animation-delay: 3.8s;
   animation-name: fadeInUp;
 }
 
@@ -350,3 +357,4 @@ hr {
 .padding-bottom-20 { padding-bottom: 20px; }
 .padding-top-30 { padding-top: 30px; }
 .padding-bottom-30 { padding-bottom: 30px; }
+.padding-bottom-50 { padding-bottom: 50px; }
