@@ -207,7 +207,6 @@ hr {
   opacity: 1;
 }
 .icon-twitter { background: url(img/twitter.svg) 50% 50% no-repeat; }
-.icon-instagram { background: url(img/instagram.svg) 50% 50% no-repeat; }
 .icon-github { background: url(img/github.svg) 50% 50% no-repeat; }
 .icon-linkedin { background: url(img/linkedin.svg) 50% 50% no-repeat; }
 .icon-spotify { background: url(img/spotify.svg) 50% 50% no-repeat; }
@@ -219,34 +218,28 @@ hr {
   animation-delay: 1.4s;
   animation-name: fadeInLeft;
 }
-.item-instagram {
+.item-github {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 1.5s;
   animation-name: fadeInLeft;
 }
-.item-github {
+.item-linkedin {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 1.6s;
   animation-name: fadeInLeft;
 }
-.item-linkedin {
+.item-spotify {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 1.7s;
   animation-name: fadeInLeft;
 }
-.item-spotify {
-  animation-duration: .8s;
-  animation-fill-mode: both;
-  animation-delay: 1.8s;
-  animation-name: fadeInLeft;
-}
 .item-medium {
   animation-duration: .8s;
   animation-fill-mode: both;
-  animation-delay: 1.9s;
+  animation-delay: 1.8s;
   animation-name: fadeInLeft;
 }
 
