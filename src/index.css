@@ -323,29 +323,35 @@ hr {
   animation-delay: 3.2s;
   animation-name: fadeInUp;
 }
-
-.work-heading {
+.project-7 {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 3.4s;
   animation-name: fadeInUp;
 }
-.work-1 {
+
+.work-heading {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 3.6s;
   animation-name: fadeInUp;
 }
-.work-2 {
+.work-1 {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 3.8s;
   animation-name: fadeInUp;
 }
-.work-3 {
+.work-2 {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 4s;
+  animation-name: fadeInUp;
+}
+.work-3 {
+  animation-duration: .8s;
+  animation-fill-mode: both;
+  animation-delay: 4.2s;
   animation-name: fadeInUp;
 }
 
