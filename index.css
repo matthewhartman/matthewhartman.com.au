@@ -206,18 +206,18 @@ hr {
   transform: translate(-50%, 20px);
   opacity: 1;
 }
-.icon-twitter { background: url(img/twitter.svg) 50% 50% no-repeat; }
+.icon-googleplay { background: url(img/googleplay.svg) 50% 50% no-repeat; }
 .icon-github { background: url(img/github.svg) 50% 50% no-repeat; }
 .icon-linkedin { background: url(img/linkedin.svg) 50% 50% no-repeat; }
 .icon-spotify { background: url(img/spotify.svg) 50% 50% no-repeat; }
 
-.item-twitter {
+.item-github {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 1.4s;
   animation-name: fadeInLeft;
 }
-.item-github {
+.item-googleplay {
   animation-duration: .8s;
   animation-fill-mode: both;
   animation-delay: 1.5s;
