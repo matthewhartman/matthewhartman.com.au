@@ -98,11 +98,11 @@ hr {
   font-size: 11px;
   line-height: 17px;
   letter-spacing: 2px;
-  padding: 12px 32px;
+  padding: 12px 20px;
   background-color: transparent;
-  border: 2px solid #fff;
-  text-transform: uppercase;
-  font-weight: 700;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  font-weight: 400;
   color: white;
   text-decoration: none;
   display: inline-block;
@@ -186,7 +186,7 @@ hr {
 }
 .icon:before {
   transition: all .3s;
-  font-size: 11px;
+  font-size: 10px;
   line-height: 17px;
   position: absolute;
   text-align: center;
