@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,400..900;1,400..900&display=swap');
+
 *, :after, :before {
   box-sizing:border-box;
 }
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #121212;
@@ -17,17 +19,23 @@ a:hover, a:focus { text-decoration: none; }
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 1rem 0;
 }
+h1, .h1, h2, .h2, h3, .h3 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  font-style: normal;
+}
 h1, .h1 {
+  font-size: 38px;
+  line-height: 46px;
+}
+
+h2, .h2 {
   font-size: 32px;
   line-height: 40px;
 }
-h2, .h2 {
+h3, .h3 {
   font-size: 22px;
   line-height: 30px;
-}
-h3, .h3 {
-  font-size: 18px;
-  line-height: 26px;
 }
 .sr {
   border: 0;
@@ -95,8 +103,9 @@ hr {
 
 /* Components */
 .button {
-  font-size: 11px;
-  line-height: 17px;
+  font-family: "DM Serif Display", serif;
+  font-size: 12px;
+  line-height: 18px;
   letter-spacing: 2px;
   padding: 12px 20px;
   background-color: transparent;
